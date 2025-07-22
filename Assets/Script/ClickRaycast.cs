@@ -10,7 +10,7 @@ public class ClickRaycast : MonoBehaviour
     [SerializeField]
     private float _rayDistance = 100f;
     [SerializeField]
-    private UnityEvent _onCoinCollected;
+    private UnityEvent<Transform> _onCoinCollected;
     private bool _isActive = true;
     public bool IsActive { set => _isActive = value; }
     private void Update()
@@ -35,6 +35,6 @@ public class ClickRaycast : MonoBehaviour
     private void CoinCollected(Coin coin)
     {
         coin.Collect();
-        _onCoinCollected?.Invoke();
+        _onCoinCollected?.Invoke(coin.transform);
     }
 }
