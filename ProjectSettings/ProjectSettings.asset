@@ -919,7 +919,7 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 2
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Tower_Defense
+  metroPackageName: TowerDefense
   metroPackageVersion: 11.3.4.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
@@ -1069,7 +1069,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 3
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
