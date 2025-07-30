@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,6 +9,10 @@ public class CoinsNumber : MonoBehaviour
     public int Coins { get => _coins; }
     [SerializeField]
     private UnityEvent<int> _onCoinsUpdated;
+    [SerializeField]
+    private UnityEvent _onBuyAccess;
+    [SerializeField]
+    private UnityEvent _onBuyFail;
     public void AddCoins(int amount)
     {
         _coins += amount;
@@ -23,5 +28,17 @@ public class CoinsNumber : MonoBehaviour
         _coins -= amount;
         if (_coins < 0) _coins = 0;
         SetCoins(_coins);
+    }
+    public bool BuyObject(int cost)
+    {
+        if (_coins >= cost)
+        {
+            SubtractCoins(cost);
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }

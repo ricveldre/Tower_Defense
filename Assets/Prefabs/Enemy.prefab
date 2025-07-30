@@ -580,6 +580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0fc2bee6be9d4234fbf64c3874267324,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -600,6 +605,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2521757682409138503}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0fc2bee6be9d4234fbf64c3874267324,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2219625574323199118}
   m_SourcePrefab: {fileID: 100100000, guid: 0fc2bee6be9d4234fbf64c3874267324, type: 3}
 --- !u!1 &1578977747533274210 stripped
 GameObject:
@@ -641,14 +650,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896b24ac7a791a743bd5090629a7ea89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthSlider: {fileID: 0}
+  _healthSlider: {fileID: 9050872567529811505}
   _maxHealth: 100
   _onTakeDamage:
     m_PersistentCalls:
       m_Calls: []
   _onDie:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2521757682409138503}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2521757682409138503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +685,42 @@ MonoBehaviour:
   _animator: {fileID: 4015619616667497395}
   _enemyData: {fileID: 11400000, guid: 085d6cacd0728e244ac9b63199f5e2f9, type: 2}
   _targetTag: Tower
+  _onInitialize:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1977983827865635088}
+        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+        m_MethodName: InitializeHealth
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &2219625574323199118
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578977747533274210}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.91, z: 1}
+  m_Center: {x: 0, y: 0.83, z: 0}
 --- !u!4 &2207457926527305432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0fc2bee6be9d4234fbf64c3874267324,

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 0.02
   attackDamage: 10
-  attackRange: 1
+  attackRange: 0.1
   attackDuration: 1
   attackWaitTime: 1
   runAnimationName: Walking
