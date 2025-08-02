@@ -34,10 +34,12 @@ public class CoinsNumber : MonoBehaviour
         if (_coins >= cost)
         {
             SubtractCoins(cost);
+            _onBuyAccess?.Invoke();
             return true;
         }
         else
         {
+            _onBuyAccess?.Invoke();
             return false;
         }
     }

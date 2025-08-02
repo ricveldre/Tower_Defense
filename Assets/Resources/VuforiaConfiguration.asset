@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AYtOHB//////AAABmYH8ZbVZ7Uj8o5sallWVVPIu9ehbiLIROBNLlF6hAuKVYAyCBWLASkBQKTm8AOjmyo10DCyvnbHsFk/SIn7+a4clFGEW2LBYmEmtEWCfuX52Iyc8FOrhpQbumObEeZe6wWP+KnqR2HMDYYQGKyYjVEd5m57p5f3QXTrCZ/MyKvfIjcT2AS1Pc2RTmhKyGzR12D/BFELJDS5bYWqoastIEvDPhel5ohGm04RffdDeLNglbMlQr7pFqX8ZUYiKuSzlH3+EdMbsy0Y+cI8S3qH/EfsQxWLGxt5a/BbDhvjGAGXrTUMMEGe2+skhwH5icKSUwWD7rRCNbdkwJLETCe4T4+d+ZBBFAKkSXW5dQHV7OdTa
-    ufoLicenseKey: QWNTempkNy8vLy8vQUFBQUtORU9hMmp0MkVuNHE4eC8rZUhGRVM4NWoxRkk1NzQ0MytlV3hLZ25DQXR6QTNOeThadmZUSEg5cXo3SDN0NWtIY1VuMXRnbThJOG4rWTEzL0FMc1BIbHM2ckJSVmFhNUtCZ09xQUIyWUNqWHNJbENFTHI1MlRZUTI0Z1pUTDZ1ZmYzMG5vNHRsVHNQb3UvQ0o2bzlZTHBKbDlaMXlKdXZSWW9CUlFLbGo5bmlWQTRmaWwxd3lJVm53YXJZejl3dDdXMDdKZExDM3NFdHo0eVJUUUhqODd0aVl1MlNDdGhKMVlHZER1Ry81bmtUaE55REFvOXhmY05CVFpKZGNkQmdyaGp6akowWVYwK3JIUkUvODJmcVpKTDJYZ0NBNjJOKzhiYVdtUlFYQmdEN1JHam1sZnJHa05XZGZtVllva1ZrR1hVT1FrOEhNcXE1V0syVVlYYmhpQ1FvdDhvbzJPRHZjZVJiRTVNU2NHdGk=
+    ufoLicenseKey: QVdDOEsxWC8vLy8vQUFBQUtGaG40SGhGcEVCdnB5TyttVm1rK1VTTzAyaDNBZ0p0bXRzd21DTlFNQ012N3pielZ2T3NUdXpTL0ZGblFDb3NTMXJ6dExnajQ2OGk5amszczUvalppb3JKSmFiVWJaWFN2UmoxZGhiZnVzR0hjOEliY29mUzYyb2tlMlh4L2Y3S0xEWkZuTjRMVXFzN3FNd2kyS0xNUjJBczNzT3puS2RRdmFKdGRVYkV5N1FCb2kvOXBZV1VnMHlMNmdFdFEveGtnRFdSOUVTY0l5WlNzdEVTR29JUVA5cUtWbXN4UEVyNm9OU0s0Wm9MLzVxUnBJM0ViV2VGU3JQTkZOajhpL3NVelRVYjYrZjBRU01MT3lRb0RjTE5GTmNWMTZITmJ3anNwSGdDT0IrVllNTm96VUZGVXZCZitsMC9uZ05hWXE4Rm0yMHRKampuWXdyNndrelFIL3p4TkNGREhNNEsyTVV4aXJza2xQSUxtU0g=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -24,11 +24,11 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 11.3.4
-    eulaAcceptedVersions: '{"Values":["","11.2","0.0","11.3"]}'
+    eulaAcceptedVersions: '{"Values":["11.3"]}'
   database:
     disableModelExtraction: 0
   plugins:
-    pluginDirectory: Vuforia
+    pluginDirectory: asset://Vuforia
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
