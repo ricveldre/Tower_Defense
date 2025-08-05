@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYtOHB//////AAABmYH8ZbVZ7Uj8o5sallWVVPIu9ehbiLIROBNLlF6hAuKVYAyCBWLASkBQKTm8AOjmyo10DCyvnbHsFk/SIn7+a4clFGEW2LBYmEmtEWCfuX52Iyc8FOrhpQbumObEeZe6wWP+KnqR2HMDYYQGKyYjVEd5m57p5f3QXTrCZ/MyKvfIjcT2AS1Pc2RTmhKyGzR12D/BFELJDS5bYWqoastIEvDPhel5ohGm04RffdDeLNglbMlQr7pFqX8ZUYiKuSzlH3+EdMbsy0Y+cI8S3qH/EfsQxWLGxt5a/BbDhvjGAGXrTUMMEGe2+skhwH5icKSUwWD7rRCNbdkwJLETCe4T4+d+ZBBFAKkSXW5dQHV7OdTa
-    ufoLicenseKey: QVdDOEsxWC8vLy8vQUFBQUtGaG40SGhGcEVCdnB5TyttVm1rK1VTTzAyaDNBZ0p0bXRzd21DTlFNQ012N3pielZ2T3NUdXpTL0ZGblFDb3NTMXJ6dExnajQ2OGk5amszczUvalppb3JKSmFiVWJaWFN2UmoxZGhiZnVzR0hjOEliY29mUzYyb2tlMlh4L2Y3S0xEWkZuTjRMVXFzN3FNd2kyS0xNUjJBczNzT3puS2RRdmFKdGRVYkV5N1FCb2kvOXBZV1VnMHlMNmdFdFEveGtnRFdSOUVTY0l5WlNzdEVTR29JUVA5cUtWbXN4UEVyNm9OU0s0Wm9MLzVxUnBJM0ViV2VGU3JQTkZOajhpL3NVelRVYjYrZjBRU01MT3lRb0RjTE5GTmNWMTZITmJ3anNwSGdDT0IrVllNTm96VUZGVXZCZitsMC9uZ05hWXE4Rm0yMHRKampuWXdyNndrelFIL3p4TkNGREhNNEsyTVV4aXJza2xQSUxtU0g=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -23,12 +23,12 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 11.3.4
-    eulaAcceptedVersions: '{"Values":["11.3"]}'
+    version: 10.0.2
+    eulaAcceptedVersions: '{"Values":[""]}'
   database:
     disableModelExtraction: 0
   plugins:
-    pluginDirectory: asset://Vuforia
+    pluginDirectory: Vuforia
   shaders:
     depthMaskShader: {fileID: 4800000, guid: 9894afa5f3a5e4bbca625981beb1b20e, type: 3}
     outlineShader: {fileID: 4800000, guid: 88d3b6b5cf364476ca39fcec255331b1, type: 3}
